@@ -2,7 +2,7 @@
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/kolkov/esr)](https://goreportcard.com/report/github.com/kolkov/esr)
 [![Coverage Status](https://coveralls.io/repos/github/kolkov/esr/badge.svg?branch=master)](https://coveralls.io/github/kolkov/esr?branch=master)
-[![Build Status](https://travis-ci.org/kolkov/esr.svg?branch=master)](https://travis-ci.org/kolkov/esr)
+[![Build Status](https://travis-ci.com/kolkov/esr.svg?branch=master)](https://travis-ci.com/kolkov/esr)
 
 Compatible with the ozzo-validation package.
 
