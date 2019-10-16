@@ -2,7 +2,7 @@ package esr
 
 import "errors"
 
-var errValueNotCommon = errors.New("must be valid number by Common algorithm")
+var ErrValueNotCommon = errors.New("esr: must be valid number by Common algorithm")
 
 // Validate check number is valid or not based on Common algorithm
 func Validate(value interface{}) error {
@@ -11,7 +11,7 @@ func Validate(value interface{}) error {
 	checkDigit := int(s[5] - 48)
 	result := cDigit == checkDigit
 	if !result {
-		return errValueNotCommon
+		return ErrValueNotCommon
 	}
 	return nil
 }
