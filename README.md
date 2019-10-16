@@ -4,7 +4,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/kolkov/esr/badge.svg?branch=master)](https://coveralls.io/github/kolkov/esr?branch=master)
 [![Build Status](https://travis-ci.com/kolkov/esr.svg?branch=master)](https://travis-ci.com/kolkov/esr)
 
-Compatible with the ozzo-validation package.
+Compatible with the [ozzo-validation](https://github.com/go-ozzo/ozzo-validation) package.
 
 ### Usage ###
 
