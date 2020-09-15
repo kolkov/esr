@@ -8,6 +8,9 @@ var ErrValueNotCommon = errors.New("esr: must be valid number by Common algorith
 func Validate(value interface{}) error {
 	s, _ := value.(string)
 	l := len(s)
+	if l < 1 {
+		return ErrValueNotCommon
+	}
 	cDigit := checkDigitCalculate(s)
 	checkDigit := int(s[l-1] - 48)
 	result := cDigit == checkDigit
