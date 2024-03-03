@@ -22,13 +22,13 @@ func Validate(value interface{}) error {
 
 // Generate return the number with check digit
 func Generate(code string) string {
-	checkDigit := checkDigitCalculate(code)
+	checkDigit := checkDigitCalculate(code + "0")
 	return code + string(rune(checkDigit+48))
 }
 
 // Digit generate return the check digit
 func Digit(code string) int {
-	return checkDigitCalculate(code)
+	return checkDigitCalculate(code + "0")
 }
 
 func checkDigitCalculate(code string) int {
